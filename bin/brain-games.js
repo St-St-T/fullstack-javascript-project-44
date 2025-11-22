@@ -2,5 +2,7 @@
 import {askName} from "../src/cli.js";
 
 
-console.log("Welcome to the Brain Games!");
-askName();
+export function brainGames(){
+    console.log("Welcome to the Brain Games!");
+    return askName();
+}
