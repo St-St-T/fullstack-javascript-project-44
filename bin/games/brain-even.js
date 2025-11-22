@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import {brainGames} from "./brain-games.js";
+import {brainGames} from "../brain-games.js";
 
 const name = brainGames();
 

@@ -4,9 +4,10 @@
   "description": "[![Actions Status](https://github.com/St-St-T/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/St-St-T/fullstack-javascript-project-44/actions)",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "bin": {
+      "brain-games": "bin/brain-games.js",
+      "brain-even": "bin/games/brain-even.js",
+      "brain-calc": "bin/games/brain-calc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +15,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^9.39.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.5.0"
   }
 }
