@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import {brainGames} from "../brain-games.js";
+import {name} from "../brain-games.js";
 
-const name = brainGames();
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
 
 for(let i = 0; i < 3; i++){
     
